@@ -25,7 +25,7 @@ defmodule App1.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:lib1, path: "../../lib1"}
+      {:lib1, path: "../../../lib1"}
     ]
   end
 end
