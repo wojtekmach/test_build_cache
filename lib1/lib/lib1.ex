@@ -1,4 +1,6 @@
 defmodule Lib1 do
+  IO.puts("i am being recompiled")
+
   @moduledoc """
   Documentation for `Lib1`.
   """
