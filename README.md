@@ -1,5 +1,1 @@
 # TestBuildCache
-
-foo
-bar
-baz
