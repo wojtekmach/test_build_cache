@@ -1,4 +1,4 @@
-defmodule TestBuildCache.MixProject do
+defmodule Umbrella1.MixProject do
   use Mix.Project
 
   def project do

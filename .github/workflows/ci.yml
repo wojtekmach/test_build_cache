@@ -31,4 +31,4 @@ jobs:
           key: mix-build-${{ matrix.pair.elixir }}-${{ matrix.pair.otp }}
 
       - run: |
-          mix compile --verbose
+          cd umbrella1 && mix compile --verbose
