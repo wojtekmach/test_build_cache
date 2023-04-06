@@ -24,4 +24,6 @@ jobs:
           key: umbrella1-mix-build-v2
 
       - run: |
-          cd umbrella1 && mix compile --verbose
+          cd umbrella1
+          mix deps.compile --verbose
+          mix compile --verbose
