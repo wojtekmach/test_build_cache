@@ -1,3 +1,4 @@
 # TestBuildCache
 
 up
+up
