@@ -15,13 +15,15 @@ jobs:
       - uses: erlef/setup-beam@v1
         with:
           otp-version: "25.3"
-          elixir-version: "1.13.1"
+          elixir-version: "1.14.4"
           version-type: strict
 
       - uses: actions/cache@v3
         with:
           path: umbrella1/_build
-          key: umbrella1-mix-build
+          key: umbrella1-mix-build-v2
 
       - run: |
-          cd umbrella1 && mix compile --verbose
+          cd umbrella1
+          mix deps.compile --verbose
+          mix compile --verbose
