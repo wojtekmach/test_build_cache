@@ -31,4 +31,4 @@ jobs:
           key: mix-build-${{ matrix.pair.elixir }}-${{ matrix.pair.otp }}
 
       - run: |
-          cd apps/app1 && mix compile --verbose
+          mix compile --verbose
