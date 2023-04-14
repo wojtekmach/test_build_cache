@@ -21,7 +21,7 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: umbrella1/_build
-          key: umbrella1-mix-build-v2-${{ github.sha }}
+          key: umbrella1-mix-build-v3
 
       - run: |
           cd umbrella1 && mix compile --verbose
